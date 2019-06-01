@@ -1,5 +1,5 @@
 
-(function () {
+
 	var refs = {};
 	Object.defineProperty(refs, "842281895", {
 		configurable: true,
@@ -937,7 +937,7 @@
 			}
 		})
 	})();;
-	(function () {
+	
 		var resp = null;
 		delete window.navigator.hardwareConcurrency;
 		Object.defineProperty(window.navigator, "hardwareConcurrency", {
@@ -949,5 +949,5 @@
 				return resp;
 			}
 		})
-	})();
-})();
+	
+
